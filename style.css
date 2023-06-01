@@ -1,78 +1,83 @@
 
-html{
+html {
   font-size: 62.5%;
 }
-body{
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-header{
+
+header {
   background-color: grey;
 }
-.container{
+
+.container {
   height: 100vh;
   background-color: black;
 }
-.toolbar{
+
+.toolbar {
   background-color: grey;
-  padding-top:5rem;
+  padding-top: 5rem;
   display: flex;
   margin-right: 2rem;
   margin-left: 2rem;
-  font-size: 2rem ;
+  font-size: 2rem;
   justify-content: space-between;
   align-items: baseline;
 }
-#First{
-  
+
+#First {
   padding-top: 13rem;
   margin-bottom: 2rem;
 }
- h1 {
+
+h1 {
   color: orange;
   font-size: 3rem;
   margin-left: 2rem;
-  margin-top:0;
+  margin-top: 0;
   margin-bottom: 0;
 }
- h4{
+
+h4 {
   color: white;
   margin-top: 1.7rem;
   margin-bottom: 0.3rem;
   margin-left: 2rem;
   font-size: 2.4rem;
-font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
-p{
+
+p {
   color: white;
   margin-left: 2rem;
   font-size: 2rem;
   line-height: 2.8rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.icons i{
+
+.icons i {
   font-size: 2.8rem;
 }
-.icons{
+
+.icons {
   color: white;
   display: flex;
   width: 88rem;
   justify-content: space-between;
 }
-.headline-bottom{
+
+.headline-bottom {
   display: flex;
   margin-left: 2rem;
   justify-content: space-between;
 }
-img{
+
+img {
   position: relative;
   bottom: 17rem;
 }
-
-
-
-
-
-
