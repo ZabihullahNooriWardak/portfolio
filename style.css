@@ -1,4 +1,65 @@
+html {
+  font-size: 62.5%;
+}
 
-h1 {
-  color: aqua;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containerForfilling {
+  display: flex;
+  flex-direction: column;
+}
+
+div.toolbar-container {
+  background-color: rgb(58, 57, 57);
+}
+
+div.toolbar {
+  font-size: 2rem;
+  color: white;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 0;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.headline-header {
+  margin-top: 12rem;
+  font-size: 2rem;
+  color: rgb(255, 166, 0);
+}
+
+.headline-header h1 {
+  margin: 0 1rem;
+  margin-left: 2rem;
+}
+
+.headline h3 {
+  margin-left: 2rem;
+  font-size: 2.4rem;
+
+  /* color: white; */
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headline p {
+  margin-left: 2rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.headline-bottom {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
