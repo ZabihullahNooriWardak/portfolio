@@ -8,19 +8,25 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+ul li{
+  list-style-type: none;
+}
 
 header {
-  background-color: grey;
+  background-color: rgb(60,58,57);
 }
 
 .container {
   height: 100vh;
-  background-color: black;
+  background-color: rgb(28,26,25);
+}
+h3{
+  font-family: 'Roboto', sans-serif;
 }
 
 .toolbar {
-  background-color: grey;
-  padding-top: 5rem;
+  background-color: rgb(60,58,57);
+  padding-top: 2rem;
   display: flex;
   margin-right: 2rem;
   margin-left: 2rem;
@@ -35,11 +41,12 @@ header {
 }
 
 h1 {
-  color: orange;
+  color: rgb(255, 107, 0);
   font-size: 3rem;
   margin-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
+  font-family: 'Crete Round', serif;
 }
 
 h4 {
@@ -57,15 +64,16 @@ p {
   margin-left: 2rem;
   font-size: 2rem;
   line-height: 2.8rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.icons i {
+a i {
   font-size: 2.8rem;
+  color: white;
 }
 
-.icons {
-  color: white;
+ul {
+
   display: flex;
   width: 88rem;
   justify-content: space-between;
