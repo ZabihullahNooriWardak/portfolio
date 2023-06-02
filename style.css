@@ -27,9 +27,10 @@ h3 {
 }
 
 .toolbar {
-  background-color: rgb(60, 58, 57);
-  padding-top: 2rem;
+  background-color: #3C3A39;
+  padding-top: 1rem;
   display: flex;
+  color: #FFFFFF;
   margin-right: 2rem;
   margin-left: 2rem;
   font-size: 2rem;
@@ -43,8 +44,8 @@ h3 {
 }
 
 h1 {
-  color: rgb(255, 107, 0);
-  font-size: 3rem;
+  color: #FF6B00;
+  font-size: 5.6rem;
   margin-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
@@ -52,7 +53,7 @@ h1 {
 }
 
 h4 {
-  color: rgb(255, 245, 225);
+  color: #FFF5E1;
   margin-top: 1.7rem;
   margin-bottom: 0.3rem;
   margin-left: 2rem;
@@ -62,7 +63,7 @@ h4 {
 }
 
 p {
-  color: white;
+  color: #FFF5E1;
   margin-left: 2rem;
   font-size: 2rem;
   line-height: 2.8rem;
@@ -71,7 +72,7 @@ p {
 
 a i {
   font-size: 2.8rem;
-  color: white;
+  color: #DBD8D7;
 }
 
 ul {
