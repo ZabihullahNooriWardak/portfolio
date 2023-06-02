@@ -8,24 +8,26 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-ul li{
+
+ul li {
   list-style-type: none;
 }
 
 header {
-  background-color: rgb(60,58,57);
+  background-color: rgb(60, 58, 57);
 }
 
 .container {
   height: 100vh;
-  background-color: rgb(28,26,25);
+  background-color: rgb(28, 26, 25);
 }
-h3{
+
+h3 {
   font-family: 'Roboto', sans-serif;
 }
 
 .toolbar {
-  background-color: rgb(60,58,57);
+  background-color: rgb(60, 58, 57);
   padding-top: 2rem;
   display: flex;
   margin-right: 2rem;
@@ -50,7 +52,7 @@ h1 {
 }
 
 h4 {
-  color: rgb(255,245,225);
+  color: rgb(255, 245, 225);
   margin-top: 1.7rem;
   margin-bottom: 0.3rem;
   margin-left: 2rem;
@@ -73,7 +75,6 @@ a i {
 }
 
 ul {
-
   display: flex;
   width: 88rem;
   justify-content: space-between;
