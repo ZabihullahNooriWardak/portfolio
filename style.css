@@ -18,8 +18,9 @@ header {
 }
 
 .container {
-  height: 100vh;
+  height: 80vh;
   background-color: #1c1a19;
+
 }
 
 h3 {
@@ -43,7 +44,7 @@ h3 {
   margin-bottom: 1rem;
 }
 
-h1 {
+h1.my-name {
   color: #ff6b00;
   font-size: 5.6rem;
   margin-left: 2rem;
@@ -62,7 +63,7 @@ h4 {
   font-weight: bold;
 }
 
-p {
+p#white {
   color: #fff5e1;
   margin-left: 2rem;
   font-size: 2rem;
@@ -87,7 +88,116 @@ ul {
   justify-content: space-between;
 }
 
-img {
+img#header {
   position: relative;
   bottom: 17rem;
+}
+/* Section-part-Started */
+h1{
+ font-size: 4rem;
+ font-family: 'Crete Round', serif;
+ font-weight:400;
+ line-height: 5.2rem;
+ width: 32.7rem;
+ height: 8.3rem;
+ margin-top: 10rem;
+ margin-bottom: 1rem;
+}
+hr{
+  width: 32.7rem;
+  border: 1px solid #212121;
+  margin-bottom: 7rem;
+}
+
+div.background{
+  background-image: url(images/Img\ Placeholder.png);
+ width: 32.7rem;
+  height: 23.7rem;
+}
+h2{
+  width: 32.7rem;
+  height: 3.6rem;
+  font-family: 'Crete Round', serif; 
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #091E42;
+  line-height: 4.4rem;
+  margin-bottom: 0.5rem;
+}
+ p.work-section{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #091E42;
+  line-height: 2.4rem;
+  width: 32.7rem;
+height: 14.7rem;
+ }
+div.container-button div{
+  background-color: #ffffff;
+height: 4rem;
+}
+div.container-button div p{
+  width: 3.1rem;
+height: 2rem;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 2rem;
+color: #091E42;
+padding-left: 1rem;
+text-align: center;
+line-height: 1rem;
+font-weight: bolder;
+}
+.bootstrap{
+  width: 9.5rem;
+  border: 1px solid #8993A4;
+}
+.html{
+  width: 6.7rem;
+  border: 1px solid #8993A4;
+
+}
+.ruby{
+  width:6.1rem;
+  border: 1px solid #8993A4;
+}
+.css{
+  border: 1px solid #8993A4;
+    width: 5.5rem;
+    font-weight: bolder;
+}
+div.see-project{
+  height: 3.3rem;
+  font-family: 'Inter', sans-serif;
+  width: 12.4rem;
+  background: #FF6B00;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+text-align: center;
+padding-top: 1.5rem;
+  
+}
+div.container-button{
+  display: flex;
+  justify-content: space-around;
+}
+section.work-section{
+  margin: auto;
+  width:32.7rem;
+  display: grid;
+  grid-template-columns:1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+
+}
+div.see-project{
+  color: #FFFFFF;
+  margin-top: 1rem;
+  justify-self: start;
 }
