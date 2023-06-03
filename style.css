@@ -92,7 +92,7 @@ img#header {
   position: relative;
   bottom: 17rem;
 }
-/* Section-part-Started */
+/* work-section-Started */
 h1{
  font-size: 4rem;
  font-family: 'Crete Round', serif;
@@ -200,4 +200,98 @@ div.see-project{
   color: #FFFFFF;
   margin-top: 1rem;
   justify-self: start;
+}
+/* work-section ended */
+
+/* Project-section-started */
+section.project{
+  margin: auto;
+  margin-top: 1rem;
+  background-image: url(images/background.png);
+  width: 32.7rem;
+  height: 38.6rem;
+  display: grid;
+  grid-auto-rows: minmax(180,auto);
+  grid-template-columns: 100%;
+  justify-items: center;
+}
+section.project h2{
+  color: #FFFFFF;
+  width: 29.5rem;
+  height: 8.1rem;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height:4.4rem;
+  padding-top: 7rem;
+}
+section.project p{
+  width: 30.1rem;
+height: 9.9rem;
+ font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+color: #FFFFFF;
+}
+.project-section-button-div div.html{
+  box-sizing: border-box;
+  width: 6.7rem;
+  height: 4rem;
+  padding: 1rem 1.2rem;
+  background-color: rgba(255, 255, 255, 0.24);
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 2rem;
+color: #FFFFFF;
+}
+.project-section-button-div div.bootstrap{
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 9.5rem;
+  height: 4rem;
+  padding: 1rem 1.2rem;
+  margin-left: 1.3rem;
+  box-sizing: border-box;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 2rem;
+color: #FFFFFF;
+}
+.project-section-button-div div.ruby{
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 6.1rem;
+  height: 4rem;
+  margin-left:1.3rem;
+  padding: 1rem 1.2rem;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 2rem;
+color: #FFFFFF;
+}
+.project-section-seeProjectButton{
+  margin-top: 2rem;
+  width: 327px;
+height: 48px;
+font-family: 'Inter', sans-serif;
+color: #FFFFFF;
+letter-spacing: 0.03em;
+text-align: center;
+font-style: normal;
+font-weight: 700;
+box-sizing: border-box;
+padding-top: 1.5rem;
+font-size: 1.7rem;
+background: #FF6B00;
+}
+.project-section-button-div{
+  display: flex;
+  justify-content: space-evenly;
 }
