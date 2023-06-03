@@ -139,14 +139,19 @@ p.work-section {
   height: 14.7rem;
 }
 
-.About-Me p {
-  text-align: center;
+.About-Me p,
+.About-Me h2 {
   margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
   color: #fff;
 }
 
 section.contact p {
-  /* margin-top: 3rem; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -410,15 +415,6 @@ section.About-Me hr {
   height: 0.1rem;
   width: 28rem;
   border: none;
-}
-
-.About-Me h2,
-.About-Me p {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
 }
 
 div.empty {
