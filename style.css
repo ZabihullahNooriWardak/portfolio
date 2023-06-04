@@ -198,10 +198,6 @@ div.container-button div p {
   font-weight: bolder;
 }
 
-div.see-project:hover{
-  background-color:#ff6a00a8;;
-}
-
 div.see-project {
   color: #fff;
   margin-top: 1rem;
@@ -217,8 +213,11 @@ div.see-project {
   padding-top: 1.5rem;
 }
 
+div.see-project:hover {
+  background-color: #ff6a00a8;
+}
+
 div.container-button {
-  
   display: flex;
   justify-content: space-around;
 }
@@ -230,10 +229,6 @@ section.work-section {
   grid-template-rows: auto;
   justify-items: center;
 }
-
-/* work-section ended */
-
-/* Project-section-started */
 
 section.project {
   margin: auto;
@@ -307,7 +302,7 @@ section.project h2 {
 
 .project-section-seeProjectButton {
   margin-top: 2rem;
-width: 100%;
+  width: 100%;
   height: 48px;
   font-family: 'Inter', sans-serif;
   color: #fff;
@@ -321,8 +316,8 @@ width: 100%;
   background: #ff6b00;
 }
 
-.project-section-seeProjectButton:hover{
- background-color:black;
+.project-section-seeProjectButton:hover {
+  background-color: black;
 }
 
 .project-section-button-div {
@@ -389,8 +384,6 @@ div.img {
   left: 25rem;
   bottom: 7rem;
   height: 23rem;
-
-
   background-image: url(images/Frame.png);
 }
 
