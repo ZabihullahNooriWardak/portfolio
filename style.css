@@ -77,7 +77,6 @@ a i {
 
 ul {
   display: flex;
-  width: 88rem;
   justify-content: space-between;
 }
 
@@ -88,6 +87,7 @@ ul {
 }
 
 img#header {
+  height: 30%;
   position: relative;
   bottom: 22rem;
 }
@@ -98,27 +98,21 @@ h1 {
   font-family: 'Crete Round', serif;
   font-weight: 400;
   line-height: 5.2rem;
-  width: 32.7rem;
   height: 8.3rem;
   margin-top: 10rem;
   margin-bottom: 1rem;
 }
 
 hr {
-  width: 32.7rem;
   border: 1px solid #212121;
   margin-bottom: 7rem;
 }
 
 div.background {
   background-image: url(images/Img\ Placeholder.png);
-  width: 32.7rem;
-  height: 23.7rem;
 }
 
 h2 {
-  width: 32.7rem;
-  height: 3.6rem;
   font-family: 'Crete Round', serif;
   font-size: 3.2rem;
   font-weight: 400;
@@ -135,8 +129,6 @@ p.work-section {
   font-size: 1.6rem;
   color: #091e42;
   line-height: 2.4rem;
-  width: 32.7rem;
-  height: 14.7rem;
 }
 
 .About-Me p,
@@ -166,8 +158,6 @@ div.container-button div {
 }
 
 section.project p {
-  width: 30.1rem;
-  height: 9.9rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -177,8 +167,6 @@ section.project p {
 }
 
 div.container-button div p {
-  width: 3.1rem;
-  height: 2rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 1.5rem;
@@ -232,7 +220,6 @@ div.container-button {
 
 section.work-section {
   margin: auto;
-  width: 32.7rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -247,7 +234,6 @@ section.project {
   margin: auto;
   margin-top: 1rem;
   background-image: url(images/background.png);
-  width: 32.7rem;
   height: 38.6rem;
   display: grid;
   grid-auto-rows: minmax(180, auto);
@@ -265,8 +251,6 @@ section.project {
 
 section.project h2 {
   color: #fff;
-  width: 29.5rem;
-  height: 8.1rem;
   font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 3.2rem;
@@ -276,8 +260,6 @@ section.project h2 {
 
 .project-section-button-div div.html {
   box-sizing: border-box;
-  width: 6.7rem;
-  height: 4rem;
   padding: 1rem 1.2rem;
   background-color: rgba(255, 255, 255, 0.24);
   font-family: 'Inter', sans-serif;
@@ -320,7 +302,7 @@ section.project h2 {
 
 .project-section-seeProjectButton {
   margin-top: 2rem;
-  width: 327px;
+width: 100%;
   height: 48px;
   font-family: 'Inter', sans-serif;
   color: #fff;
@@ -341,22 +323,18 @@ section.project h2 {
 
 div.last {
   height: 8rem;
-  width: 32.7rem;
 }
 
 /* Section About Me Started */
 section.About-Me {
   margin: auto;
   background-color: black;
-  width: 33rem;
 }
 
 section.About-Me h1#about {
   padding-top: 5rem;
   box-sizing: border-box;
   text-align: center;
-  width: 32.7rem;
-  height: 79px;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -369,8 +347,6 @@ section.About-Me h1#about {
 section.About-Me p#about {
   padding-left: 2rem;
   padding-right: 5rem;
-  width: 327px;
-  height: 148px;
   margin-top: 7rem;
   box-sizing: border-box;
   color: #f4f5f7;
@@ -401,10 +377,11 @@ section.About-Me p#about {
 
 div.img {
   position: relative;
-  left: 17rem;
+  left: 25rem;
   bottom: 7rem;
   height: 23rem;
-  width: 16rem;
+
+
   background-image: url(images/Frame.png);
 }
 
@@ -413,7 +390,6 @@ section.About-Me hr {
   position: relative;
   bottom: 4rem;
   height: 0.1rem;
-  width: 28rem;
   border: none;
 }
 
@@ -426,20 +402,17 @@ section.contact {
   text-align: center;
   margin: auto;
   background: #fff;
-  width: 33rem;
 }
 
 section.contact input {
   border: none;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
-  width: 30rem;
   background: #fbf8f7;
   border-bottom: solid 1px grey;
 }
 
 section.contact textarea {
-  width: 30rem;
   height: 9rem;
   background: #fbf8f7;
   font-style: italic;
@@ -484,7 +457,6 @@ div.hr {
 
 div.las {
   background-color: black;
-  width: 9rem;
   margin: auto;
   margin-bottom: 3rem;
   height: 0.3rem;
