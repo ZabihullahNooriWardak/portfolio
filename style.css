@@ -198,6 +198,10 @@ div.container-button div p {
   font-weight: bolder;
 }
 
+div.see-project:hover{
+  background-color:#ff6a00a8;;
+}
+
 div.see-project {
   color: #fff;
   margin-top: 1rem;
@@ -214,6 +218,7 @@ div.see-project {
 }
 
 div.container-button {
+  
   display: flex;
   justify-content: space-around;
 }
@@ -314,6 +319,10 @@ width: 100%;
   padding-top: 1.5rem;
   font-size: 1.7rem;
   background: #ff6b00;
+}
+
+.project-section-seeProjectButton:hover{
+ background-color:black;
 }
 
 .project-section-button-div {
